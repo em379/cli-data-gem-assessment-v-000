@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+
+
+require_relative '../lib/movies_in_theaters'
+
+MoviesInTheaters::CLI.new.call

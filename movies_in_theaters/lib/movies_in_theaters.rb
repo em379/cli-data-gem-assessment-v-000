@@ -1,11 +1,15 @@
-require "movies_in_theaters/version"
+
 require 'nokogiri'
 require 'open-uri'
+require 'pry'
+
+require_relative "movies_in_theaters/version"
+require_relative "movies_in_theaters/cli"
+require_relative "movies_in_theaters/movie"
 
 
 module MoviesInTheaters
   # Your code goes here...
-  def get_page
-    doc = Nokogiri::HTML(open("http://www.fandango.com/"))
+
 
 end
