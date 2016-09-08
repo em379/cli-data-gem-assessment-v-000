@@ -8,10 +8,10 @@ class MoviesInTheaters::CLI
 
   def list_movies
     puts "Movies Currently In Theaters"
-     @movies = MoviesInTheaters::Movie.new
+     movie = MoviesInTheaters::Movie
 
-     @movies.each.with_index(1) do |movie, i|
-      puts "#{i}. #{movie.name}"
+     movie.each.with_index(1) do |movies, i|
+      puts "#{i}. #{movies.name}"
     end
 
   end
@@ -33,6 +33,6 @@ class MoviesInTheaters::CLI
       end
     end
   end
-  puts "Goodbye!!!"
+  puts ""
 end
 end

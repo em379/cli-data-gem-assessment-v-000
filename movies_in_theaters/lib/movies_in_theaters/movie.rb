@@ -1,7 +1,7 @@
 class MoviesInTheaters::Movie
   attr_accessor :name, :rating, :genre, :times
 
-  
+
 
 
 def self.scrape_movies_in_theaters
