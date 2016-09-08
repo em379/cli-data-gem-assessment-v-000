@@ -1,4 +1,4 @@
-require pry
+
 class MoviesInTheaters::CLI
 
   def call
@@ -9,7 +9,7 @@ class MoviesInTheaters::CLI
   def list_movies
     puts "Movies Currently In Theaters"
      @movies = MoviesInTheaters::Movie.new
-     binding.pry
+
      @movies.each.with_index(1) do |movie, i|
       puts "#{i}. #{movie.name}"
     end
