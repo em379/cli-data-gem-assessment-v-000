@@ -1,5 +1,5 @@
 class MoviesInTheaters::Movie
-  attr_accessor :name :rating
+  attr_accessor :name 
 
   def initialize(name = nil)
     @name = name

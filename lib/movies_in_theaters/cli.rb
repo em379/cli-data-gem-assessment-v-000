@@ -8,7 +8,7 @@ class MoviesInTheaters::CLI
   end
 
   def list_movies
-    puts "Movies Currently In Theaters
+    puts "Movies Currently In Theaters"
      @movies = MoviesInTheaters::Movie.today
      @movies.each.with_index(1) do |movie, i|
      print "#{i}. #{movie.name}"

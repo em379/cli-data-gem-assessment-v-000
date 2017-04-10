@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # MoviesInTheaters
 
-This is application where a user inputs there zip code and the current movies in theaters are displayed.
+This is an application where a user inputs there zip code and the current movies in theaters are displayed.
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/movies_in_theaters`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -79,11 +79,11 @@ There is also a [video walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI)
 6. Make sure to check each box in your spec.md (replace the space between the square braces with an x) and explain next to each one how you've met the requirement *before* you submit your project.
 7. Prepare a video demo (narration helps!) describing how a user would interact with your working gem.
 8. Write a blog post about the project and process.
-9. On Learn, submit links to the GitHub repository for your gem, your video demo, and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up. 
+9. On Learn, submit links to the GitHub repository for your gem, your video demo, and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up.
 
 Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please *don’t* use the Ask New Question feature. Rather than working with Learn Experts, please reach out to the Learn Instructor responsible for this section instead - Corinna / corinna@flatironschool.com / learn-co slack: corinna.
 
-## If you're a Learn-Verified Premium student: 
+## If you're a Learn-Verified Premium student:
 
 Watch for an email from Learn with instructions to schedule an assessment. If you don't receive the email within a day or so after submission, get in touch!
 
@@ -118,7 +118,7 @@ If necessary, after the assessment, be prepared to:
 
 - [How to build a ruby gem](http://guides.rubygems.org/make-your-own-gem/)
 - [How to publish your gem](http://guides.rubygems.org/publishing/)
-- [Environments, Requiring Files, Bundler, and Gems](https://www.youtube.com/watch?v=XBgZLm-sdl8) 
+- [Environments, Requiring Files, Bundler, and Gems](https://www.youtube.com/watch?v=XBgZLm-sdl8)
 - [Video- CLI Data Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI)
 - [Video- CLI Data Gem Walkthrough: Creating a CLI Scraper Gem](https://www.youtube.com/watch?v=Y5X6NRQi0bU)
 - [Video- Common Anti-Patterns in CLI Data Gem](https://www.youtube.com/watch?v=cbMa87oWv08)
